@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2048 - the game on vanilla js</title>
+</head>
+<body>
+<div>
+    The game
+</div>
+    <div id="game-2048">
+        The game should be here. If you see this text, then something went wrong.
+    </div>
+    <script type="module">
+        import createDefaultGame from "./js/index.js";
+
+        document.addEventListener("DOMContentLoaded", () => {
+            createDefaultGame(document.getElementById("game-2048"));
+        });
+    </script>
+</body>
+</html>
