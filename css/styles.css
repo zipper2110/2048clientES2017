@@ -1,0 +1,58 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html * {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+
+    background: antiquewhite;
+    font-family: "Droid Sans", "Agency FB", Cambria, Arial, sans-serif;
+    font-size: 18px;
+    color: #886322;
+}
+
+.page {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.page .page-title h1 {
+    font-size: 4rem;
+    display: inline-block;
+}
+
+.game-container {
+    width: 100%;
+    padding: 10px;
+    background: #fff9f2;
+    border-radius: 10px;
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    padding: 10px;
+    background: #886322;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.footer-text {
+    max-width: 800px;
+    margin: 0 auto;
+}
